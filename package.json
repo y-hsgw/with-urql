@@ -1,16 +1,24 @@
 {
+  "name": "with-next",
+  "version": "0.0.0",
   "private": true,
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
   "dependencies": {
-    "graphql": "^15.0.0",
-    "isomorphic-unfetch": "^3.0.0",
-    "next": "latest",
+    "@urql/core": "^5.0.8",
+    "@urql/next": "^1.1.2",
+    "graphql": "^16.9.0",
+    "next": "15.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "urql": "^1.9.7"
+    "urql": "^4.2.0"
+  },
+  "scripts": {
+    "dev": "next dev --turbo",
+    "start": "next",
+    "build": "next build"
+  },
+  "devDependencies": {
+    "@types/node": "22.8.6",
+    "@types/react": "18.2.6",
+    "typescript": "5.6.3"
   }
 }
